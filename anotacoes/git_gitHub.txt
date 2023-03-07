@@ -1,0 +1,33 @@
+Git e GitHub
+Criador do Git: 
+Linus Torvalds
+Comandos básicos do terminal Windows
+•	dir : lista os diretórios do seu local atual
+•	cd + nomePasta : navegar entre pastas
+•	cd.. : volta um nível
+•	cls : limpar
+•	tab : autocompletar
+•	mkdir + nome : cria uma pasta
+•	echo + msg - printa a mensagem no terminal
+•	echo + txt > + nomeArquivo.txt : cria um arquivo no diretório atual
+•	del + nomeDiretorio - deleta todos os arquivos do diretório
+•	rmdir + nome Diretório /S /Q : remove o diretório e tudo que está dentro
+Funcionamento
+SHA1 - Secure Hash Algorithm : Encriptação de 40 caracteres
+•	É uma forma curta de representar um arquivo
+•	É o código de identificação do arquivo de uma forma única
+Primeiros comandos no Git
+git init : inicia o git na pasta e cria um repositório
+ls -a : mostra os arquivos ocultos
+cd .git/ : entra na pasta do git
+
+git config - -global user.email + “email” : configura o nome
+git config - -global user.name + “nome” : configura o email
+
+git add * : adiciona todos os arquivos que sofreram alterações
+git commit -m “sua mensagem”: realiza o commit para a máquina local com a mensagem especificada
+
+git remote add origin + origem(link https) : associa um repositório remoto ao diretório atual
+
+git pull origin master: puxa as alterações do repositório remoto
+
